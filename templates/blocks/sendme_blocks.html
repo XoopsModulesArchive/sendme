@@ -1,0 +1,33 @@
+<div align="right">
+  <center>
+  <fieldset>
+<table width=100% dir="rtl">
+<form method="POST" action="<{$xoops_url}>/modules/<{$block.mydirname}>/send.php">
+<tr>
+<td><{$block.lang_name}>:</td>
+<td> <input type ="text" name="name" size="20" > </td>
+</tr>
+<tr>
+<td><{$block.lang_subject}>:</td>
+<td> <input type ="text" name="subject" size="20" > </td>
+</tr>
+<tr>
+<td><{$block.lang_email}> :</td>
+<td><input type="text" name="email" size="20"></td>
+</tr>
+<tr>
+<td><{$block.lang_comment}></td>
+<td><textarea rows="6" name="comment" cols="16"></textarea></td>
+</tr>
+<tr>
+<td> <{if $block.captcha ==1}></td>
+<td><img src="<{$xoops_url}>/modules/<{$block.mydirname}>/captcha_sendme.php"></td>
+</tr>
+<tr>
+<td><{$block.lang_code}>:</td>
+<td><input type="text" name="captcha_num" size="20" /></td>
+</tr>
+<{/if}>
+</table><p>
+<input type=submit value='<{$block.lang_send}>'    name=send></p></form>
+ </fieldset>

@@ -1,0 +1,20 @@
+SendMe V1.0 - V1.4  the Release.
+fix logout when Admin Send Message from the admin side
+
+SendMe V1.5  
+-----------
+Bug
+Fix Html Allowing (disabled)
+Clean Up Code .
+included languge file to about.php file
+New Stuff
+1- Dhtml Editor -Optional
+2-Admin Notfiy when new Message Received
+3-Message Follow Up Become Optional
+
+SendMe v1.6
+-----------
+1- fix Session Bug ..
+2- Fix Password Box Shown Up when Password Follow up Disabled
+3- Made the Block Anti-Spam control from the Admin Setting instaed the edit the block
+4- Re-ordered the Admin Settings

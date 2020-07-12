@@ -1,0 +1,41 @@
+ <script type="text/javascript" language="JavaScript">
+	<!-- Begin
+	function textCounter(field, countfield, maxlimit) {
+		//function textCounter(maxlimit) {
+		//var field = document.getElementById(message).form;
+		//var countfield = document.getElementById(remLen);
+		if (field.value.length > maxlimit) // if too long...trim it!
+			field.value = field.value.substring(0, maxlimit);
+			// otherwise, update 'characters left' counter
+		else 
+			countfield.value = maxlimit - field.value.length;
+        
+	} // end function
+
+//-->
+ </script>
+
+<table cellpadding="0" cellspacing="0" class="outer">
+	<tr>
+<td class="even" colspan="2">
+<div>
+<{$introtext}></div>
+</td>
+</tr>
+    <tr>
+<td class="even">
+<div>
+<{$theForm}></div>
+</td>
+<td class="even">
+<div>
+<{$sform}></div>
+</td>
+    </tr>
+<tr>
+<td class="even" colspan="2">
+<div>
+<{$footertext}></div>
+</td>
+</tr>
+</table>
